@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Chandas;
+}
+
+body {
+    background: linear-gradient(rgb(69, 39, 160, 0.8), rgb(69, 39, 160, 0.7)), url(1670273505696.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+#title {
+    color: #fff;
+    margin-top: 5rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+#description {
+    font-style: italic;
+    color: #fff;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+}
+
+#survey-form {
+    min-width: 300px;
+    background-color: rgb(31, 17, 72, 0.9);
+    border-radius: 10px;
+    padding: 40px;
+    margin: 30px;
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container label {
+    color: #fff;
+    margin-top: 30px;
+}
+
+.input-container input {
+    padding: 05px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+
+.select-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.select-container select {
+    padding: 05px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.select-container select option {
+    border: none;
+}
+
+.select-container label {
+    color: #fff;
+    margin-top: 30px;
+}
+
+.ration-section {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.ratio-container {
+    display: flex;
+    align-items: center;
+}
+
+.ratio-container label {
+    padding-left: 10px;
+}
+
+.ratio-container input {
+    cursor: pointer;
+}
+
+.checkbox-section p {
+    color: #fff;
+    margin-top: 30px;
+}
+
+.checkbox-container label {
+    color: #fff;
+}
+
+.text-area-container {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text-area-container label {
+    color: #fff;
+}
+
+
+.text-area-container textarea {
+    width: 90%;
+    outline: none;
+    padding: 25px;
+    resize: vertical;
+    transition: 0.5s;
+}
+
+.submit-btn-container {
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+.submit-btn-container button {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(120, 188, 120);
+    border: none;
+    color: #fff;
+}
